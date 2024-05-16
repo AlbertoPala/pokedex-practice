@@ -13,7 +13,7 @@ export class PokemonService {
   ) {}
 
   async create(createPokemonDto: CreatePokemonDto) {
-    createPokemonDto.name = CreatePokemonDto.name.toLowerCase();
+    createPokemonDto.name = createPokemonDto.name.toLowerCase();
     const pokemon = await this.pokemonModel.create(createPokemonDto);
     return pokemon;
   }
