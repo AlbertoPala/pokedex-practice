@@ -8,7 +8,7 @@
 2. Ejecutar
 
 ```
-yarn install
+npm install
 ```
 
 3. Tener Nest CLI instalado
@@ -31,5 +31,6 @@ localhost:3000/api/v2/seed
 
 ## Stack usado
 
-- MongoDB
-- Nest
+* MongoDB
+* Nest
+
