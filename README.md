@@ -23,7 +23,9 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
-5. Popular base de datos con PokeApi
+5. Clonar el archivo **.env.template**, renombar la copia a **.env** y llenar las variables
+
+6. Popular base de datos con PokeApi
 
 ```
 localhost:3000/api/v2/seed
@@ -31,6 +33,5 @@ localhost:3000/api/v2/seed
 
 ## Stack usado
 
-* MongoDB
-* Nest
-
+- MongoDB
+- Nest
